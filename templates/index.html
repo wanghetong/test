@@ -1,0 +1,138 @@
+$def with (todos,form, text)
+
+
+           
+   
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<title>HTML5 Drag and drop demonstration</title>
+
+ <link rel="stylesheet" href="static/first.css" type="text/css" media="screen" charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="/static/tutorial.css" />
+ <script type="text/javascript" src="/static/jquery.js"></script>
+<script src="http://localhost:8080/application.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  var jug = new Juggernaut;
+  jug.subscribe("channel1", function(data){
+    console.log("Got data: " + data);
+  });
+</script>
+
+  <script type="text/javascript">
+                                jQuery(document).ready(function() {
+                                jQuery(".button").click(function() {
+                                        var input_string = $$("input#textfield").val();
+                                        jQuery.ajax({
+                                                type: "POST",
+                                                data: {textfield : input_string},
+                                                success: function(data) {
+                                                jQuery('#foo').html(data);
+                                             
+                                                },
+                                                });
+                                        return false;
+                                        });
+                                });
+        
+                        </script>
+
+<script type="text/javascript">
+function dragStart(ev) {
+    ev.dataTransfer.effectAllowed='move';
+    //ev.dataTransfer.dropEffect='move';
+    ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
+    ev.dataTransfer.setDragImage(ev.target,0,0);
+    return true;
+}
+
+function dragEnd(ev) {
+    ev.dataTransfer.clearData("Text");
+    return true
+}
+
+
+function dragEnter(ev) {
+    var idelt = ev.dataTransfer.getData("Text");
+    return true;
+}
+
+function dragOver(ev) {
+    var idelt = ev.dataTransfer.getData("Text");
+    var id = ev.target.getAttribute('id');
+    
+    return false;
+    
+    if( (id =='boxB' || id =='boxA') && (idelt == 'drag' || idelt=='drag2'))
+        return false;
+    else if( id =='boxC' && idelt == 'drag3')
+        return false;
+    else
+        return true;
+}
+
+function dragDrop(ev) {
+  console.log('drop');
+    var idelt = ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(idelt));
+    ev.stopPropagation();
+    return false; // return false so the event will not be propagated to the browser
+}
+
+</script>
+</head>
+<body>
+    <h1>Drag and drop demo in a HTML document, using the HTML5 drag and drop API</h1>
+    <ul>
+	$for todo in todos:
+	    <li id="$todo.id">$todo.title</li>
+	</ul>
+    <div> The red box and the orange box can be dragged and dropped between 
+    the blue and the green boxes.
+    The purple box can be dragged and dropped only to the yellow box.
+    </div>
+
+    <div id="boxA"
+        ondragenter="return dragEnter(event)"
+        ondrop="return dragDrop(event)"
+        ondragover="return dragOver(event)">
+
+      <div id="drag" draggable="true"
+            ondragstart="return dragStart(event)"
+            ondragend="return dragEnd(event)">drag me</div>
+
+      <div id="drag2" draggable="true"
+            ondragstart="return dragStart(event)"
+            ondragend="return dragEnd(event)">drag me</div>
+
+      <div id="drag3" draggable="true"
+            ondragstart="return dragStart(event)"
+            ondragend="return dragEnd(event)">drag me</div>
+
+    </div>
+
+    <div id="boxB"
+        ondragenter="return dragEnter(event)"
+        ondrop="return dragDrop(event)"
+        ondragover="return dragOver(event)">
+    </div>
+
+    <div id="boxC"
+        ondragenter="return dragEnter(event)"
+        ondrop="return dragDrop(event)"
+        ondragover="return dragOver(event)">
+    </div>
+    <div style="clear:both">Example created by <a href="http://ljouanneau.com/blog/">Laurent Jouanneau</a>.</div>
+	 <br>
+        <form class="form" method="post"> 
+        $:form.render()
+        <input class="button" type="submit" value="send"/>    
+        </form>
+
+        <br><br>
+        <span id="foo">$text</span>   
+</body>
+</html>
