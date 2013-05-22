@@ -2,10 +2,10 @@
 
 import web
 import os
-import juggernaut
-from gevent import monkey; monkey.patch_all()
-from gevent.pywsgi import WSGIServer
-from socketio.server import SocketIOServer
+#import juggernaut
+#from gevent import monkey; monkey.patch_all()
+#from gevent.pywsgi import WSGIServer
+#from socketio.server import SocketIOServer
 
 
 
