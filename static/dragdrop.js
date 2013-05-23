@@ -1,7 +1,7 @@
 
 function dragStart(ev) {
     ev.dataTransfer.effectAllowed='move';
-    //ev.dataTransfer.dropEffect='move';
+    ev.dataTransfer.dropEffect='move';
     ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
     ev.dataTransfer.setDragImage(ev.target,0,0);
     return true;
@@ -22,13 +22,16 @@ function dragOver(ev) {
     var idelt = ev.dataTransfer.getData("Text");
     var id = ev.target.getAttribute('id');
 
-    return false;
 
+    return false;
     if( (id =='boxB' || id =='boxA') && (idelt == 'drag' || idelt=='drag2'))
-    return false;
+
+        return false;
     else if( id =='boxC' && idelt == 'drag3')
-    return false;
+
+        return false;
     else
+        console.log('true');
     return true;
     }
 

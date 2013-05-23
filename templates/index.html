@@ -1,44 +1,25 @@
+$def with(allcss,alljs)
 <!DOCTYPE HTML>
 <html>
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
-<title>HTML5 Drag and drop demonstration</title>
 
- <link rel="stylesheet" href="static/first.css" type="text/css"/>
- <link rel="stylesheet" href="/static/tutorial.css" type="text/css"/>
- <script type="text/javascript" src="/static/jquery.js"></script>
- <script type="text/javascript" src="/static/dragdrop.js"></script>
- <script type="text/javascript" src="/static/basicfunctions.js"></script>
 
-  <script type="text/javascript">
-                                jQuery(document).ready(function()
-                                {
-                                    jQuery(".btn1").click(function() {
-                                        var input_string = $$("input#word").val();
-                                        jQuery.ajax(
-                                                {
-                                                type: "POST",
-                                                data: {good: input_string},
-                                                success: function(myg)
-                                                {
-                                                    var obj = JSON.parse(myg);
-                                                    jQuery('#lst').html(genli(obj));
-                                                }
-                                                });
-                                        return false;
-                                        });
-                                });
-        
-                        </script>
+    $for tv in allcss:
+    <link rel="stylesheet" href="/static/$:tv" type="text/css"/>
+
+<title>Cloud Data Analysis Supermarket</title>
+
+
+    $for tv in alljs:
+    <script type="text/javascript" src="/static/$tv"></script>
 
 
 </head>
 <body>
     <h1>Cdasm in build</h1>
 
-    <div> The red box and the orange box can be dragged and dropped between 
-    the blue and the green boxes.
-    The purple box can be dragged and dropped only to the yellow box.
+    <div>
     </div>
 
     <div id="boxA"
