@@ -30,7 +30,7 @@ my_form = web.form.Form(
                 web.form.Textbox('', class_='textfield', id='textfield'),
                 )
 def make_text(string):
-    return string
+    return string + "ok"
 
 class Index:
 
