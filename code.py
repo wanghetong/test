@@ -2,6 +2,7 @@
 
 import web
 import os
+import json
 #import juggernaut
 #from gevent import monkey; monkey.patch_all()
 #from gevent.pywsgi import WSGIServer
@@ -11,7 +12,7 @@ import os
 
 import time
 
-urls = ('/(static)/(.*)', 'static',
+urls = (
 '/', 'Index'
         )
 
@@ -26,32 +27,38 @@ web.config.debug = True
 
 
   
-my_form = web.form.Form(
-                web.form.Textbox('', class_='textfield', id='textfield'),
-                )
+
 def make_text(string):
-    return string + "ok"
+    return string
 
 class Index:
 
     def GET(self,name=''):
-        todos = db.select('todo')
-        form = my_form()
-        return render.index(todos,form,"a good example")
+        
+                  
+        return render.index()
 
     def POST(self,name=''):
-        form = my_form()
-        form.validates()
-        s = form.value['textfield']
-        return make_text(s)
-
-class static:
-    def GET(self, media, file):
-        try:
-            f = open(media+'/'+file, 'r')
-            return f.read()
-        except:
-            return '' # you can send an 404 error here if you want
+        data=web.input()
+        print data
+        qcmd="select * FROM todo WHERE todo.id='"+data.good+"'"
+        print qcmd
+        todos = db.query(qcmd)
+        temv=[]
+        for td in todos:
+            temv.append(td)
+        print temv
+        tv=json.dumps(temv)
+        print tv
+        return tv
+#'/(static)/(.*)', 'static',
+#class static:
+#    def GET(self, media, file):
+#        try:
+#            f = open(media+'/'+file, 'r')
+#            return f.read()
+#        except:
+#            return '' # you can send an 404 error here if you want
 
 
 

@@ -1,10 +1,3 @@
-$def with (todos,form, text)
-
-
-
-
-
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -15,18 +8,33 @@ $def with (todos,form, text)
  <link rel="stylesheet" href="/static/tutorial.css" type="text/css"/>
  <script type="text/javascript" src="/static/jquery.js"></script>
  <script type="text/javascript" src="/static/dragdrop.js"></script>
+ <script type="text/javascript" src="/static/basicfunctions.js"></script>
 
   <script type="text/javascript">
-                                jQuery(document).ready(function() {
-                                jQuery(".button").click(function() {
-                                        var input_string = $$("input#textfield").val();
-                                        jQuery.ajax({
+                                jQuery(document).ready(function()
+                                {
+
+
+                                    jQuery(".btn1").click(function() {
+                                        var input_string = $$("input#word").val();
+                                        jQuery.ajax(
+                                                {
                                                 type: "POST",
-                                                data: {textfield : input_string},
-                                                success: function(data) {
-                                                jQuery('#foo').html(data);
-                                             
-                                                },
+                                                data: {good: input_string},
+                                                success: function(myg)
+                                                {
+
+                                                    var obj = JSON.parse(myg);
+                                                    var to='';
+                                                    console.log(to+'abc');
+                                                    console.log(obj);
+                                                    for(var tm in obj)
+                                                    {
+                                                        console.log(obj[tm].title);
+                                                    }
+                                                    jQuery('#foo').html(myg);
+                                                    jQuery('#lst').html(genli(obj));
+                                                }
                                                 });
                                         return false;
                                         });
@@ -38,10 +46,7 @@ $def with (todos,form, text)
 </head>
 <body>
     <h1>Cdasm in build</h1>
-    <ul>
-	$for todo in todos:
-	    <li id="$todo.id">$todo.title</li>
-	</ul>
+
     <div> The red box and the orange box can be dragged and dropped between 
     the blue and the green boxes.
     The purple box can be dragged and dropped only to the yellow box.
@@ -79,12 +84,18 @@ $def with (todos,form, text)
     </div>
     <div style="clear:both"></div>
 	 <br>
-        <form class="form" method="post"> 
-        $:form.render()
-        <input class="button" type="submit" value="send"/>    
+        <form>
+
+        <input type="text" id="word" />
+
+        <input class="btn1"  type="submit" value="query"/>
         </form>
 
         <br><br>
-        <span id="foo">$text</span>   
+        <span id="foo"></span>
+
+
+        <ul id="lst">
+        </ul>
 </body>
 </html>
