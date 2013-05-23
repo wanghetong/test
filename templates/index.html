@@ -21,16 +21,7 @@
                                                 data: {good: input_string},
                                                 success: function(myg)
                                                 {
-
                                                     var obj = JSON.parse(myg);
-                                                    var to='';
-                                                    console.log(to+'abc');
-                                                    console.log(obj);
-                                                    for(var tm in obj)
-                                                    {
-                                                        console.log(obj[tm].title);
-                                                    }
-
                                                     jQuery('#lst').html(genli(obj));
                                                 }
                                                 });
@@ -82,12 +73,10 @@
     </div>
     <div style="clear:both"></div>
 	 <br>
-        <form>
 
-        <input type="text" id="word" />
 
-        <input class="btn1"  type="submit" value="query"/>
-        </form>
+                 <input  type="text" id="word" />
+                 <input class="btn1"  type="submit" value="query"/>
 
         <br><br>
 
