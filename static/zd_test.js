@@ -1,20 +1,14 @@
 jQuery(document).ready(function()
 {
     jQuery(".btn2").click(function() {
-        var ds  = $('.D')
-        for(d in ds){
-            var di = ds[d];
-            var color= turncolor("red","yellow",jQuery(di).css("background-color"));
-            jQuery(di).css({"background-color": color});
-            //do whatever you want
-        }
 
 
-        //  jQuery('.D').each(function() {
-        //    var color= turncolor("red","yellow",this.css("background-color"));
-        //    this.css({"background-color": color});
+
+          jQuery('.D').each(function() {
+            var color= turncolor("red","yellow",jQuery(this).css("background-color"));
+            jQuery(this).css({"background-color": color});
         //    alert( this.id );
-      //  });
+        });
 
     });
     jQuery(".btn4").click(function()
