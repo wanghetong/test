@@ -26,7 +26,7 @@ jQuery(document).ready(function()
     jQuery(".btn3").click(function() {
         jQuery("#container").append(jQuery('<div/>', {
             id: 'boxD',
-            class: 'D'
+            className: 'D'
         }));
     });
 
