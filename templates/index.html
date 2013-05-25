@@ -9,8 +9,11 @@ $def with(allcss,alljs)
 <title>Cloud Data Analysis Supermarket</title>
 
 
+
+
     $for tv in alljs:
     <script type="text/javascript" src="/static/$tv"></script>
+
 
 
 </head>
@@ -73,11 +76,11 @@ $def with(allcss,alljs)
     <div style="clear:both"></div>
     <br>
 
-
-    <input class="btn2" id="button" type="submit" value="change"/>
-    <input class="btn3" id="button" type="submit" value="add"/>
-    <input class="btn4" id="button" type="submit" value="remove"/>
-
+     <div id="bcont">
+    <input class="btn2" id="button" type="submit" seldef="1" value="change"/>
+    <input class="btn3" id="button" type="submit" seldef="1" value="add"/>
+    <input class="btn4" id="button" type="submit"  value="remove"/>
+    </div>
     <br><br>
 
 </body>

@@ -14,6 +14,13 @@ jQuery(document).ready(function()
     jQuery(".btn4").click(function()
     {
      jQuery("#container").find(':last-child').not(':only-child').remove();
+     var curre="[seldef='" + "1" + "']";
+
+     console.log(curre);
+
+     jQuery("#bcont").find(curre).each(function(){
+         alert(this.className);
+     })
     });
 
     jQuery(".btn3").click(function() {
