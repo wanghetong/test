@@ -5,12 +5,11 @@
 	}
 	
 	
-#btn1 {
+#button {
 
-		right: 10px;
 		font-family: Verdana;
 		font-weight: bold;
-		background-color: whitesmoke;
+		background-color: red;
 		border:1px solid; 
 		border-color: #696 #363 #363 #696; 
 	}	
