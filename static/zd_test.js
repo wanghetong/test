@@ -19,7 +19,7 @@ jQuery(document).ready(function()
      console.log(curre);
 
      jQuery("#bcont").find(curre).each(function(){
-         alert(this.className);
+         console.log(this.className);
      })
     });
 
