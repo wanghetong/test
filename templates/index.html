@@ -1,15 +1,16 @@
 $def with(allcss,alljs)
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE HTML>
+<html>
 <head>
- <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     $for tv in allcss:
     <link rel="stylesheet" href="/static/css/$:tv" type="text/css"/>
+
 <title>Cloud Data Analysis Supermarket</title>
-    $for tv in alljs:
+  $for tv in alljs:
     <script type="text/javascript" src="/static/js/$tv"></script>
+
+
 </head>
 <body>
     <h1>Cdasm in build</h1>
@@ -50,17 +51,11 @@ $def with(allcss,alljs)
 
     <div style="clear:both"></div>
 
-
-
-                 <input  type="text" class="word"/>
+                 <input  type="text" class="word" />
                  <input class="btn1" id="button" type="submit" value="query"/>
-
-
-
 
         <ul class="lst">
         </ul>
-
 
     <div class="container">
     <div id="boxD" class="D">
@@ -70,7 +65,7 @@ $def with(allcss,alljs)
     <div style="clear:both"></div>
 
 
-    <div class="bcont">
+     <div class="bcont">
     <input class="btn2" id="button" type="submit" seldef="1" value="change"/>
     <input class="btn3" id="button" type="submit" seldef="1" value="add"/>
     <input class="btn4" id="button" type="submit"  value="remove"/>
