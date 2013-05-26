@@ -1,18 +1,22 @@
 import os
-import glob
+import re
 
 def allJsCss0():
-    tv=os.listdir("./static")
-    tv.sort()
+ 
+   
     tm=[]
-    tm.append([])
-    tm.append([])
+          
+    tvjs=[f for f in os.listdir("./static/js") if re.match(r'.*\.js',f)]
+    #files = [f for f in os.listdir('.') if re.match(r'[0-9]+.*\.jpg', f)]
+    tvjs.sort
     
-    for t1 in tv:
-        if t1.endswith(".js"):
-            tm[1].append(t1)
-        elif t1.endswith(".css"):
-            tm[0].append(t1)
+    
+
+    tvcss=[f for f in os.listdir("./static/css") if re.match(r'.*\.css',f)]
+    tvcss.sort
+   
+    tm.append(tvcss)
+    tm.append(tvjs)
     return tm
         
 

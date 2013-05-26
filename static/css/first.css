@@ -22,9 +22,9 @@
   height: 200px;
   padding: 10px;
   margin: 10px;
-  background-color: #a52a2a;
+  background-color: #ffff00;
 }
-#drag,
+#drag1,
 #drag2,
 #drag3 {
   width: 50px;
@@ -33,7 +33,7 @@
   margin: 5px;
   -moz-user-select: none;
 }
-#drag {
+#drag1 {
   background-color: red;
 }
 #drag2 {

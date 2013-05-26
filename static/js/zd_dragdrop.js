@@ -1,0 +1,2 @@
+function dragStart(a){a.dataTransfer.effectAllowed="move";a.dataTransfer.dropEffect="move";a.dataTransfer.setData("Text",a.target.getAttribute("id"));a.dataTransfer.setDragImage(a.target,0,0);return!0}function dragEnd(a){a.dataTransfer.clearData("Text");return!0}function dragEnter(a){a.dataTransfer.getData("Text");return!0}function dragOver(a){a.dataTransfer.getData("Text");a.target.getAttribute("id");return!1}
+function dragDrop(a){console.log("drop");var b=a.dataTransfer.getData("Text");a.target.appendChild(document.getElementById(b));a.stopPropagation();return!1};

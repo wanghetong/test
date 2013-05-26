@@ -1,5 +1,5 @@
 
-@color: brown;
+@import "allcolors.less";
 
 #boxA, #boxB, #boxC {
   float:left; width:200px; height:200px; padding:10px; margin:10px;
@@ -9,13 +9,13 @@
 #boxB { background-color: green; }
 #boxC { background-color: yellow; }
 
-#boxD { float:left; width:200px; height:200px; padding:10px; margin:10px;   background-color:@color}
+#boxD { float:left; width:200px; height:200px; padding:10px; margin:10px;   background-color:@tcolor}
 
 
-#drag, #drag2, #drag3 {
+#drag1, #drag2, #drag3 {
   width:50px; height:50px; padding:5px; margin:5px;
   -moz-user-select:none;
 }
-#drag { background-color: red;}
+#drag1 { background-color: red;}
 #drag2 { background-color: orange;}
 #drag3 { background-color: purple;}

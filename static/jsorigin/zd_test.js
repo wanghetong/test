@@ -1,12 +1,17 @@
 jQuery(document).ready(function()
 {
-    jQuery(".btn2").click(function() {
 
+    jQuery(".btn2").click(function()
+    {
 
+        alert(jQuery('.D').length);
 
           jQuery('.D').each(function() {
-            var color= turncolor("red","yellow",jQuery(this).css("background-color"));
-            jQuery(this).css({"background-color": color});
+            tc=jQuery(this).css("background-color");
+            co= turncolor('rgb(255, 255, 0)','rgb(255, 0, 0)',tc);
+
+            jQuery(this).css({"background-color": co});
+            console.log(co);
         //    alert( this.id );
         });
 
