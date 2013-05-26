@@ -13,25 +13,26 @@ jQuery(document).ready(function()
     });
     jQuery(".btn4").click(function()
     {
-     jQuery("#container").find(':last-child').not(':only-child').remove();
+     jQuery(".container").find(':last-child').not(':only-child').remove();
      var curre="[seldef='" + "1" + "']";
 
      console.log(curre);
 
-     jQuery("#bcont").find(curre).each(function(){
+     jQuery(".bcont").find(curre).each(function(){
          console.log(this.className);
      })
     });
 
     jQuery(".btn3").click(function() {
-        jQuery("#container").append(jQuery('<div/>', {
+        jQuery(".container").append(jQuery('<div/>', {
             id: 'boxD',
             className: 'D'
         }));
     });
 
     jQuery(".btn1").click(function() {
-        var input_string = jQuery("#word").val();
+        var input_string = jQuery(".word").val();
+
         jQuery.ajax(
             {
                 type: "POST",
@@ -40,7 +41,7 @@ jQuery(document).ready(function()
                 {
 
                         var obj = JSON.parse(myg);
-                        jQuery("#lst").html(genli(obj));
+                        jQuery(".lst").html(genli(obj));
 
 
                 }
