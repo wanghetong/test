@@ -1,21 +1,14 @@
 $def with(allcss,alljs)
+
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     $for tv in allcss:
-    <link rel="stylesheet" href="/static/$:tv" type="text/css"/>
-
+    <link rel="stylesheet" href="/static/css/$:tv" type="text/css"/>
 <title>Cloud Data Analysis Supermarket</title>
-
-
-
-
     $for tv in alljs:
-    <script type="text/javascript" src="/static/$tv"></script>
-
-
-
+    <script type="text/javascript" src="/static/js/$tv"></script>
 </head>
 <body>
     <h1>Cdasm in build</h1>
@@ -28,7 +21,7 @@ $def with(allcss,alljs)
         ondrop="return dragDrop(event)"
         ondragover="return dragOver(event)">
 
-      <div id="drag" draggable="true"
+      <div id="drag1" draggable="true"
             ondragstart="return dragStart(event)"
             ondragend="return dragEnd(event)">drag me</div>
 
@@ -55,18 +48,18 @@ $def with(allcss,alljs)
     </div>
 
     <div style="clear:both"></div>
-	 <br>
 
 
-                 <input  type="text" class="word" />
+
+                 <input  type="text" class="word"/>
                  <input class="btn1" id="button" type="submit" value="query"/>
 
-        <br><br>
+
 
 
         <ul class="lst">
         </ul>
-    <br>
+
 
     <div class="container">
     <div id="boxD" class="D">
@@ -74,14 +67,14 @@ $def with(allcss,alljs)
     </div>
 
     <div style="clear:both"></div>
-    <br>
 
-     <div class="bcont">
+
+    <div class="bcont">
     <input class="btn2" id="button" type="submit" seldef="1" value="change"/>
     <input class="btn3" id="button" type="submit" seldef="1" value="add"/>
     <input class="btn4" id="button" type="submit"  value="remove"/>
     </div>
-    <br><br>
+
 
 </body>
 </html>
