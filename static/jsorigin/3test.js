@@ -7,19 +7,8 @@ jQuery(document).ready(function()
             var color= turncolor('rgb(255, 255, 0)','rgb(255, 0, 0)',jQuery(this).css("background-color"));
             console.log(color);
             jQuery(this).css({"background-color": color});
-            //    alert( this.id );
+
         });
-    //    console.log(jQuery('.D').length);
-
-    //      jQuery('.D').each(function() {
-    //        tc=jQuery(this).css("background-color");
-    //        tc=jQuery(this).css("background-color");
-    //        co= turncolor('rgb(255, 255, 0)','rgb(255, 0, 0)',tc);
-
-    //        jQuery(this).css({"background-color": co});
-    //        console.log(co);
-
-    //    });
 
     });
     jQuery(".btn4").click(function()
@@ -33,7 +22,23 @@ jQuery(document).ready(function()
          console.log(this.className);
      })
     });
+    jQuery(".btn5").click(function()
+    {   console.log("btn5 click");
+        console.log(jQuery(".temA").val());
+        var t = document.querySelector("#commentTemplate");
+        //Populate the template here
+      //  someElement.appendChild(t.content.cloneNode());
+        jQuery(".temA").append(t.content.cloneNode());
 
+    //    jQuery(".temA").append(
+    //        jQuery('<div/>', {
+    //        id:"drag1",
+
+    //        draggable:"true",
+    //        ondragstart:"return dragStart(event)",
+    //        ondragend:"return dragEnd(event)"
+    //    }));
+    });
     jQuery(".btn3").click(function() {
         jQuery(".container").append(jQuery('<div/>', {
             id: 'boxD',
@@ -63,12 +68,3 @@ jQuery(document).ready(function()
 
 
 });
-
-
-
-
-//jQuery(".btn2").click(function(){
-//    jQuery("#boxC").css("background-color","red");
-//});
-
-

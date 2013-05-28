@@ -7,33 +7,41 @@ $def with(allcss,alljs)
     <link rel="stylesheet" href="/static/css/$:tv" type="text/css"/>
 
 <title>Cloud Data Analysis Supermarket</title>
+
+    <script type="text/javascript"  src="/static/polymer-all/polymer/polymer.js"></script>
+    <link rel="import" href="/static/my-element.html">
   $for tv in alljs:
-    <script type="text/javascript" src="/static/js/$tv"></script>
-
-
+    <script type="text/javascript" src="/static/jsorigin/$tv"></script>
 </head>
+
+
+
+
+
 <body>
+
+
+
     <h1>Cdasm in build</h1>
 
-    <div>
-    </div>
+    <tk-element-databinding></tk-element-databinding>
 
-    <div id="boxA"
+    <div id="boxA"   class="temA" value="1"
         ondragenter="return dragEnter(event)"
         ondrop="return dragDrop(event)"
         ondragover="return dragOver(event)">
 
       <div id="drag1" draggable="true"
             ondragstart="return dragStart(event)"
-            ondragend="return dragEnd(event)">drag me</div>
+            ondragend="return dragEnd(event)">drag1</div>
 
       <div id="drag2" draggable="true"
             ondragstart="return dragStart(event)"
-            ondragend="return dragEnd(event)">drag me</div>
+            ondragend="return dragEnd(event)">drag2</div>
 
       <div id="drag3" draggable="true"
             ondragstart="return dragStart(event)"
-            ondragend="return dragEnd(event)">drag me</div>
+            ondragend="return dragEnd(event)">drag3</div>
 
     </div>
 
@@ -48,6 +56,9 @@ $def with(allcss,alljs)
         ondrop="return dragDrop(event)"
         ondragover="return dragOver(event)">
     </div>
+    <div style="clear:both"></div>
+
+    <input class="btn5" id="button" type="submit" seldef="1" value="try"/>
 
     <div style="clear:both"></div>
 

@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/static/jsorigin/zd_test.js" description="});" line="63" />
+    <bookmark url="file://$PROJECT_DIR$/static/jsorigin/3test.js" description="});" line="68" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/jslib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/jsorigin/dragdrop.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/jquery.js" afterPath="$PROJECT_DIR$/static/jsorigin/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/index.xhtml" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/allcolors.less" afterPath="$PROJECT_DIR$/static/css/allcolors.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/first.css" afterPath="$PROJECT_DIR$/static/css/first.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.js" afterPath="$PROJECT_DIR$/static/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/tutorial.css" afterPath="$PROJECT_DIR$/static/css/tutorial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/my-element.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/jsorigin/jquery.js" afterPath="$PROJECT_DIR$/static/jsorigin/0jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/jsorigin/za_basicfunctions.js" afterPath="$PROJECT_DIR$/static/jsorigin/1test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/jsorigin/zd_dragdrop.js" afterPath="$PROJECT_DIR$/static/jsorigin/2test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/jsorigin/zd_test.js" afterPath="$PROJECT_DIR$/static/jsorigin/3test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/zd_dragdrop.js" afterPath="$PROJECT_DIR$/static/js/zd_dragdrop.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/zd_test.js" afterPath="$PROJECT_DIR$/static/js/zd_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/jsorigin/zd_test.js" afterPath="$PROJECT_DIR$/static/jsorigin/zd_test.js" />
     </list>
     <ignored path="cdasm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369575933345" ignored="false" />
-    <file path="/index.html" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369577929844" ignored="false" />
+    <file path="/Dummy.txt" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369747236894" ignored="false" />
+    <file path="/index.html" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369750320568" ignored="false" />
     <file path="/tutorial.css" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369480877627" ignored="false" />
     <file path="/basicfunctions.js" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369302513062" ignored="false" />
     <file path="/dragdrop.js" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369320839040" ignored="false" />
-    <file path="/zd_test.js" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369576647575" ignored="false" />
+    <file path="/zd_test.js" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369748150754" ignored="false" />
     <file path="/first.css" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369542899477" ignored="false" />
     <file path="/za_basicfunctions.js" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369560587992" ignored="false" />
     <file path="/first.less" changelist="82ef6fb5-6580-405d-a1bd-49b0239ee8e4" time="1369561007693" ignored="false" />
@@ -49,10 +47,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="50" selection-start="333" selection-end="333" vertical-scroll-proportion="0.21520804">
+            <state line="26" column="53" selection-start="607" selection-end="607" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-element.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/my-element.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2test.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/jsorigin/2test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,9 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/basicfunctions.js" />
-        <option value="$PROJECT_DIR$/static/test.js" />
-        <option value="$PROJECT_DIR$/static/dragdrop.js" />
         <option value="$PROJECT_DIR$/static/tutorial.css" />
         <option value="$PROJECT_DIR$/static/za_basicfunctions.js" />
         <option value="$PROJECT_DIR$/static/zd_test.js" />
@@ -90,8 +103,11 @@
         <option value="$PROJECT_DIR$/static/css/first.less" />
         <option value="$PROJECT_DIR$/static/css/tutorial.less" />
         <option value="$PROJECT_DIR$/static/css/allcolors.less" />
-        <option value="$PROJECT_DIR$/static/jsorigin/zd_test.js" />
         <option value="$PROJECT_DIR$/templates/index.xhtml" />
+        <option value="$PROJECT_DIR$/static/jsorigin/zd_dragdrop.js" />
+        <option value="$PROJECT_DIR$/static/js/jquery.js" />
+        <option value="$PROJECT_DIR$/static/jsorigin/zd_test.js" />
+        <option value="$PROJECT_DIR$/static/my-element.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -128,7 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,86 +229,21 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="allcolors.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cdasm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/less/bin/lessc" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/node_modules/less/bin/lessc" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -378,7 +328,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28296295" sideWeight="0.9627164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2822222" sideWeight="0.9627164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28454173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -454,102 +404,99 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/tutorial.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/tutorial.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/allcolors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/first.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/first.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="20" column="35" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/allcolors.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+        <state line="0" column="21" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jsorigin/1test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jsorigin/0jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="834" column="66" selection-start="20900" selection-end="20900" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jsorigin/3test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="52" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jsorigin/za_basicfunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jsorigin/zd_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jsorigin/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1369575908000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1369575908000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1369575908000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/zd_dragdrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jsorigin/zd_dragdrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1369578604651" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1369578604651" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1369578604651" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="333" selection-end="333" vertical-scroll-proportion="0.21520804">
+        <state line="26" column="53" selection-start="607" selection-end="607" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/polymer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/polymer/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/toolkit-ui/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="58" selection-end="58" vertical-scroll-proportion="0.10775862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/polymer-elements/polymer-ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/polymer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/polymer-all/polymer/polymer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.26907074">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/my-element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jsorigin/2test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
